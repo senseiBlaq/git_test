@@ -1,0 +1,24 @@
+SETTING UP GIT
+git config --global user.name "Your Name"
+git config --global user.email "yourname@example.com"
+git config --global init.defaultBranch main
+git config --global color.ui auto
+
+CREATE AND LINK PUBLIC SSH KEY TO GITHUB
+ls ~/.ssh/id_ed25519.pub - check for ssh key 
+ssh-keygen -t ed25519 -C <youremail> - create ssh key 
+cat ~/.ssh/id_ed25519.pub - copy public ssh
+
+GIT COMMANDS 
+git clone - saves  arepo on your local machine 
+git add filename.ext - adds a file to the staging area on local machine to allow tracking of changes 
+git commit -m "msg -comment  " adds file to the local repo 
+git status 
+git push - adds to the repo server online 
+git pull - takes from the repo server onnline 
+git log  
+git reset
+
+git branch - shows branch active
+git checkout -b branch_name - creates a new branch 
+git merge - merges a branch repo to master 
