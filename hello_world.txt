@@ -19,6 +19,8 @@ git pull - takes from the repo server onnline
 git log  
 git reset
 
+git pull origin master - access the repo on when the repo is on the local machine
+
 git branch - shows branch active
 git checkout -b branch_name - creates a new branch 
 git merge - merges a branch repo to master 
